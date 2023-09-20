@@ -341,7 +341,8 @@ func main() {
         }
         
         apkoutpath := apkpathdir + apkname
-        dex2jarpath := apkoutpath + ".jar"
+        //dex2jarpath := apkoutpath + ".jar"
+	dex2jarpath := "/opt/dex2jar-v2.3"
         jadxpath := apkoutpath + "_SAST/"
         log.Printf("[+] APK Static Analysis Path: %s\n", jadxpath)
         
